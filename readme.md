@@ -2,6 +2,10 @@
 
 嵌入式开发中，数据可视化对于可以直观的显示出数据，ADC滤波又或者是其他数据，目前有一个小应用，电子秤通过RS232接口将重量数据发送至串口,我们需要自己写一个小程序来将数据接收至日志文件进行分析，数据可视化就非常方便
 
+下载地址 https://github.com/newbie-jiang/python-matplotlib-tools.git
+
+
+
 ## 1.安装虚拟串口助手并虚拟一对com口
 
 首先使用虚拟串口软件虚拟出一对串口用于调试，我这里虚拟的为 COM1 COM2
@@ -61,3 +65,4 @@ E:/software/python3.13/python.exe -m pip install matplotlib    (其中software/p
 
 
 
+![动画](https://newbie-typora.oss-cn-shenzhen.aliyuncs.com/zhongke/%E5%8A%A8%E7%94%BB.gif)
