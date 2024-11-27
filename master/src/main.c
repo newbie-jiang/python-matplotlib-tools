@@ -116,7 +116,7 @@ int main() {
         }
 
         // 每 interval_seconds 秒发送一次字符 'R'
-        Sleep(interval_seconds * 1000); // Sleep 以毫秒为单位，因此乘以 1000
+        Sleep(interval_seconds * 800); // Sleep 以毫秒为单位，因此乘以 1000
     }
 
     // 关闭串口
